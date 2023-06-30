@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cabin&display=swap");
+.footer_wrapper {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  background: url(../images/bg_footer.png) no-repeat;
+  background-size: cover;
+  background-color: rgb(7, 2, 45);
+  color: white;
+}
+.footer_wrapper .footer_logo img {
+  max-width: 30%;
+}
+.footer_wrapper .footer_text,
+.footer_wrapper .footer_text a {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.footer_wrapper .footer_social_media_icon {
+  padding-right: 30px;
+  font-size: 20px;
+}
+.footer_wrapper .footer_credits {
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  margin-top: 30px;
+}
+.footer_wrapper .footer_credits a {
+  color: gray;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .footer_wrapper .footer_logo img {
+    max-width: 50%;
+  }
+}
+
+.market-btn {
+  display: inline-block;
+  padding: 0.3125rem 0.875rem;
+  padding-left: 2.8125rem;
+  -webkit-transition: border-color 0.25s ease-in-out,
+    background-color 0.25s ease-in-out;
+  transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+  border: 1px solid rgb(7, 2, 45);
+  background-position: center left 0.75rem;
+  background-color: black;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+.market-btn .market-button-title {
+  display: block;
+  color: #fff;
+  font-size: 1.125rem;
+}
+.market-btn .market-button-subtitle {
+  display: block;
+  margin-bottom: -0.25rem;
+  color: #888;
+  font-size: 0.75rem;
+}
+.apple-btn {
+  background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzMDUgMzA1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMDUgMzA1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCI+CjxnIGlkPSJYTUxJRF8yMjhfIj4KCTxwYXRoIGlkPSJYTUxJRF8yMjlfIiBkPSJNNDAuNzM4LDExMi4xMTljLTI1Ljc4NSw0NC43NDUtOS4zOTMsMTEyLjY0OCwxOS4xMjEsMTUzLjgyQzc0LjA5MiwyODYuNTIzLDg4LjUwMiwzMDUsMTA4LjIzOSwzMDUgICBjMC4zNzIsMCwwLjc0NS0wLjAwNywxLjEyNy0wLjAyMmM5LjI3My0wLjM3LDE1Ljk3NC0zLjIyNSwyMi40NTMtNS45ODRjNy4yNzQtMy4xLDE0Ljc5Ny02LjMwNSwyNi41OTctNi4zMDUgICBjMTEuMjI2LDAsMTguMzksMy4xMDEsMjUuMzE4LDYuMDk5YzYuODI4LDIuOTU0LDEzLjg2MSw2LjAxLDI0LjI1Myw1LjgxNWMyMi4yMzItMC40MTQsMzUuODgyLTIwLjM1Miw0Ny45MjUtMzcuOTQxICAgYzEyLjU2Ny0xOC4zNjUsMTguODcxLTM2LjE5NiwyMC45OTgtNDMuMDFsMC4wODYtMC4yNzFjMC40MDUtMS4yMTEtMC4xNjctMi41MzMtMS4zMjgtMy4wNjZjLTAuMDMyLTAuMDE1LTAuMTUtMC4wNjQtMC4xODMtMC4wNzggICBjLTMuOTE1LTEuNjAxLTM4LjI1Ny0xNi44MzYtMzguNjE4LTU4LjM2Yy0wLjMzNS0zMy43MzYsMjUuNzYzLTUxLjYwMSwzMC45OTctNTQuODM5bDAuMjQ0LTAuMTUyICAgYzAuNTY3LTAuMzY1LDAuOTYyLTAuOTQ0LDEuMDk2LTEuNjA2YzAuMTM0LTAuNjYxLTAuMDA2LTEuMzQ5LTAuMzg2LTEuOTA1Yy0xOC4wMTQtMjYuMzYyLTQ1LjYyNC0zMC4zMzUtNTYuNzQtMzAuODEzICAgYy0xLjYxMy0wLjE2MS0zLjI3OC0wLjI0Mi00Ljk1LTAuMjQyYy0xMy4wNTYsMC0yNS41NjMsNC45MzEtMzUuNjExLDguODkzYy02LjkzNiwyLjczNS0xMi45MjcsNS4wOTctMTcuMDU5LDUuMDk3ICAgYy00LjY0MywwLTEwLjY2OC0yLjM5MS0xNy42NDUtNS4xNTljLTkuMzMtMy43MDMtMTkuOTA1LTcuODk5LTMxLjEtNy44OTljLTAuMjY3LDAtMC41MywwLjAwMy0wLjc4OSwwLjAwOCAgIEM3OC44OTQsNzMuNjQzLDU0LjI5OCw4OC41MzUsNDAuNzM4LDExMi4xMTl6IiBmaWxsPSIjMmUyZTJlIi8+Cgk8cGF0aCBpZD0iWE1MSURfMjMwXyIgZD0iTTIxMi4xMDEsMC4wMDJjLTE1Ljc2MywwLjY0Mi0zNC42NzIsMTAuMzQ1LTQ1Ljk3NCwyMy41ODNjLTkuNjA1LDExLjEyNy0xOC45ODgsMjkuNjc5LTE2LjUxNiw0OC4zNzkgICBjMC4xNTUsMS4xNywxLjEwNywyLjA3MywyLjI4NCwyLjE2NGMxLjA2NCwwLjA4MywyLjE1LDAuMTI1LDMuMjMyLDAuMTI2YzE1LjQxMywwLDMyLjA0LTguNTI3LDQzLjM5NS0yMi4yNTcgICBjMTEuOTUxLTE0LjQ5OCwxNy45OTQtMzMuMTA0LDE2LjE2Ni00OS43N0MyMTQuNTQ0LDAuOTIxLDIxMy4zOTUtMC4wNDksMjEyLjEwMSwwLjAwMnoiIGZpbGw9IiMyZTJlMmUiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+}
+.google-btn {
+  background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBvbHlnb24gc3R5bGU9ImZpbGw6IzVDREFERDsiIHBvaW50cz0iMjkuNTMsMCAyOS41MywyNTEuNTA5IDI5LjUzLDUxMiAyOTkuMDA0LDI1MS41MDkgIi8+Cjxwb2x5Z29uIHN0eWxlPSJmaWxsOiNCREVDQzQ7IiBwb2ludHM9IjM2OS4wNjcsMTgwLjU0NyAyNjIuMTc1LDExOS40NjcgMjkuNTMsMCAyOTkuMDA0LDI1MS41MDkgIi8+Cjxwb2x5Z29uIHN0eWxlPSJmaWxsOiNEQzY4QTE7IiBwb2ludHM9IjI5LjUzLDUxMiAyOS41Myw1MTIgMjYyLjE3NSwzODMuNTUxIDM2OS4wNjcsMzIyLjQ3IDI5OS4wMDQsMjUxLjUwOSAiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGQ0E5NjsiIGQ9Ik0zNjkuMDY3LDE4MC41NDdsLTcwLjA2Myw3MC45NjFsNzAuMDYzLDcwLjk2MWwxMDguNjg4LTYyLjg3N2M2LjI4OC0zLjU5Myw2LjI4OC0xMS42NzcsMC0xNS4yNyAgTDM2OS4wNjcsMTgwLjU0N3oiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
+.windows-btn {
+  background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDQ4MCA0ODAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ4MCA0ODA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMC4xNzYsMjI0TDAuMDAxLDY3Ljk2M2wxOTItMjYuMDcyVjIyNEgwLjE3NnogTTIyNC4wMDEsMzcuMjQxTDQ3OS45MzcsMHYyMjRIMjI0LjAwMVYzNy4yNDF6IE00NzkuOTk5LDI1NmwtMC4wNjIsMjI0ICAgbC0yNTUuOTM2LTM2LjAwOFYyNTZINDc5Ljk5OXogTTE5Mi4wMDEsNDM5LjkxOEwwLjE1Nyw0MTMuNjIxTDAuMTQ3LDI1NmgxOTEuODU0VjQzOS45MTh6IiBmaWxsPSIjMDBiY2YyIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
+
+.nav-link {
+  color: black;
+  font-weight: bolder;
+  font-family: "Cabin", sans-serif;
+}
+.carousel-item img {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.carousel {
+  margin: 5%;
+}
+main {
+  background-image: url(../images/bg_footer.png);
+}
+
+.highlights h3 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  text-shadow: #888;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.faq_wrapper {
+  padding: 100px 0 0;
+}
+.faq_wrapper .faq_subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  font-family: "Anton", sans-serif;
+  color: blue;
+}
+.faq_wrapper .faq_title {
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  color: black;
+}
+.faq_wrapper .accordion-button:hover,
+.faq_wrapper .accordion-button:focus {
+  box-shadow: gray;
+  color: blue;
+}
+.faq_wrapper .accordion-item {
+  border: 0;
+}
+.faq_wrapper .accordion-button {
+  font-size: 21px;
+  font-family: "Anton", sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 0;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid #5e5e72;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.faq_wrapper .accordion-button::after {
+  content: "\002B";
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  display: inline-block;
+  background-image: none;
+}
+.faq_wrapper .accordion-button:not(.collapsed)::after {
+  content: "\2212";
+  font-family: "Cabin", sans-serif;
+  font-weight: 800;
+  display: inline-block;
+  background-image: none;
+  transform: unset;
+}
+.faq_wrapper .accordion-body {
+  color: gray;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  padding-bottom: 25px;
+  line-height: 1.5;
+}
+@media (max-width: 767px) {
+  .footer_wrapper .footer_logo img {
+    max-width: 50%;
+  }
+}
+
+.faqs {
+  background-color: #fff;
+}
+.brand_wrapper {
+  padding: 100px 0;
+}
+.brand_wrapper .brand_subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  font-family: "Anton", sans-serif;
+  color: #5e5e72;
+}
+.brand_wrapper .brand_title {
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  color: black;
+}
+.brand_wrapper .showcase_card img {
+  width: 100%;
+  border-radius: 15px;
+  padding: 45px 25px;
+  transition: 0.7s;
+}
+.brand_wrapper .showcase_card img:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 2;
+}
+h3 {
+  font-family: "Anton", sans-serif;
+}
+.testimonial_wrapper {
+  padding: 100px 0;
+}
+.testimonial_wrapper .testimonials_subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: #5e5e72;
+}
+.testimonial_wrapper .testimonials_title {
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  margin-bottom: 80px;
+  color: #000;
+}
+.testimonial_wrapper .testimonials_card {
+  border-radius: 15px;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 5px 40px rgb(0 0 0 / 15%);
+}
+.testimonial_wrapper h3 {
+  font-family: "Anton", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: #000;
+}
+.testimonial_wrapper .testimonials_role {
+  font-size: 19px;
+  font-family: "Anton", sans-serif;
+  /* font-weight: 700; */
+  line-height: 1;
+  margin-bottom: 25px;
+  color: blue;
+}
+.testimonial_wrapper .testimonials_text {
+  font-size: 15px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
+.widgets-icons-2 {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ededed;
+  font-size: 27px;
+  border-radius: 10px;
+}
+
+.card_about {
+  font-family: "Cabin";
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.card-text {
+  font-family: "Cabin";
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Anton", "Cabin";
+}
+.view_all {
+  font-family: "Anton";
+  position: absolute;
+  right: 5%;
+}
+.table {
+  font-family: "Cabin";
+}
+
+.single-pricing {
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+  border: 1px solid #eee;
+  box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.09);
+  transition: 0.3s;
+}
+@media only screen and (max-width: 480px) {
+  .single-pricing {
+    margin-bottom: 30px;
+  }
+}
+.single-pricing:hover {
+  box-shadow: 0px 60px 60px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  transform: translate(0, -10px);
+}
+.price-label {
+  color: #fff;
+  background: #ffaa17;
+  font-size: 16px;
+  width: 100px;
+  margin-bottom: 15px;
+  display: block;
+  -webkit-clip-path: polygon(
+    100% 0%,
+    90% 50%,
+    100% 100%,
+    0% 100%,
+    0 50%,
+    0% 0%
+  );
+  clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+  margin-left: -20px;
+  position: absolute;
+}
+
+.price-head span {
+  display: inline-block;
+  background: #ffaa17;
+  width: 6px;
+  height: 6px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.price {
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.single-pricing h5 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+.single-pricing ul {
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.single-pricing ul li {
+  line-height: 35px;
+}
+.single-pricing a {
+  background: none;
+  border: 2px solid #ffaa17;
+  border-radius: 5000px;
+  color: #ffaa17;
+  display: inline-block;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px 45px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
+.single-pricing a:hover,
+.single-pricing a:focus {
+  background: #ffaa17;
+  color: #fff;
+  border: 2px solid #ffaa17;
+}
+.single-pricing-white {
+  background: #232434;
+}
+.single-pricing-white ul li {
+  color: #fff;
+}
+.single-pricing-white h2 {
+  color: #fff;
+}
+.single-pricing-white h1 {
+  color: #fff;
+}
+.single-pricing-white h5 {
+  color: #fff;
+}
+.elite {
+  color: white;
+}
+.price_list {
+  font-weight: bolder;
+  font-family: "Cabin";
+}
+.banner_wrapper {
+  display: flex;
+  width: 100%;
+  padding: 100px 0 125px;
+  background: url(../images/bg.png) no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.banner_wrapper .banner-subtitle {
+  font-size: 24px;
+  /* font-weight: 700; */
+  line-height: 1.5;
+  font-family: "Anton";
+  margin-bottom: 15px;
+  color: blue;
+}
+.banner_wrapper .banner-title {
+  font-weight: 800;
+  font-size: 60px;
+  font-family: "Anton";
+  text-transform: capitalize;
+  line-height: 1.15;
+  margin-bottom: 25px;
+  color: black;
+}
+.banner_wrapper .banner-title span {
+  color: blue;
+}
+.banner_wrapper .banner-title-text {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  max-width: 450px;
+  color: #798089;
+}
+.banner_wrapper .learn-more-btn-section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 20px;
+}
+.banner_wrapper .header-img-section img {
+  width: 100%;
+  animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.learn-more-btn {
+  background-color: black;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff !important;
+  padding: 12px 29px !important;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.7s;
+}
+.btn-extra-header {
+  color: gray !important;
+  background-color: transparent;
+  border: 2px solid gray;
+}
+#pricing {
+  margin-top: 20%;
+}
+.banner-title-text {
+  font-family: "Cabin";
+}
+@media (max-width: 1230px) {
+  .banner_wrapper .banner-title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+ 
+  .banner_wrapper .banner-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner_wrapper {
+    padding: 100px 0 100px;
+  }
+  .banner_wrapper .row {
+    flex-direction: column-reverse;
+  }
+  .banner_wrapper .learn-more-btn-section {
+    justify-content: center;
+  }
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
