@@ -196,6 +196,9 @@ main {
   margin-bottom: 25px;
   color: black;
 }
+#brands {
+  width: 100%;
+}
 .brand_wrapper .showcase_card img {
   width: 100%;
   border-radius: 15px;
@@ -258,7 +261,9 @@ h3 {
 }
 
 .cards-wrapper {
+  max-width: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .card img {
@@ -269,10 +274,11 @@ h3 {
   margin: 0 0.5em;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
   border: none;
-  border-radius: 0;
+  border-radius: 20px;
+  width: 8%;
 }
 .carousel-inner {
-  padding: 1em;
+  padding: 0.2em;
 }
 .carousel-control-prev,
 .carousel-control-next {
@@ -522,7 +528,6 @@ h3 {
 }
 
 @media (max-width: 991px) {
- 
   .banner_wrapper .banner-title {
     font-size: 36px;
   }
@@ -540,7 +545,15 @@ h3 {
   }
 }
 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+.row .card {
+  width: 100%;
+}
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #fff;
+.d-flex {
+  display: flex !important;
+  justify-content: center;
 }
